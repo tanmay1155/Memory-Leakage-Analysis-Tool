@@ -2,7 +2,7 @@
 
 MLAT is a command-line tool written in Go that allows you to analyze memory leakage in processes running on your system. It identifies processes with memory leaks and provides insights into their memory usage patterns.
 
-#Features
+# Features
 
 Memory Leakage Detection: MLAT identifies processes exhibiting memory leakage by analyzing their memory usage over time.
 
@@ -10,7 +10,7 @@ Process Monitoring: The tool continuously monitors the memory usage of specified
 
 Detailed Analysis: MLAT provides detailed reports on memory usage trends, allowing users to diagnose and troubleshoot memory leakage issues effectively.
 
-#Getting Started
+# Getting Started
 
 To use MLAT, follow these steps:
 
@@ -33,6 +33,6 @@ go run main.go memoryleak.exe
 # Run MLAT to monitor a process by PID
 go run main.go 12345
 
-#Contributing
+# Contributing
 
 Contributions to MLAT are welcome. If you have suggestions for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
